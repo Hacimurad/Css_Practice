@@ -1,0 +1,11 @@
+p{
+    display: inline-block;
+}
+span{
+    display: none;
+    background-color: red;
+}
+
+p:hover + span{
+    display: inline-block;
+}

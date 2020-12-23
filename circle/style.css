@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+}
+
+.circle{
+    width: 395px;
+    height: 395px;
+    border: 2px solid rgb(221, 16, 16);
+    background-color: red;
+    border-radius: 50%;
+}

@@ -1,0 +1,3 @@
+.content:hover::after {
+    content:attr(data-name);
+}
